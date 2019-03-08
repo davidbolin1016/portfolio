@@ -5,11 +5,48 @@
 body {
   font-family: 'Lucida Grande', sans-serif;
   line-height: 1.5;
+  max-width: 800px;
+  margin: auto;
+}
+
+nav {
+  background-color: lightgrey;
+  color: white;
+  position: fixed;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: 0;
+  z-index: 1;
+}
+
+nav img {
+  height: 32px;
+  width: 32px;
+}
+
+a:link, a:visited {
+  color: black;
+}
+
+.text-link {
+  bottom: 8px;
+  position: relative;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+  padding: 10px;
 }
 
 h1 {
   font-size: 22px;
-  margin-top: 100px;
+  margin-top: 125px;
+  margin-bottom: 75px;
   text-align: center;
 }
 
@@ -17,4 +54,12 @@ p {
   font-size: 16px;
   margin-left: 25px;
   margin-right: 25px;
+}
+
+#projects {
+  margin-top: 200px;
+}
+
+.screenshot {
+  width: 100%
 }
