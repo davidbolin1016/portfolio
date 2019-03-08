@@ -1,3 +1,5 @@
+'use strict';
+
 /*
 
 workspace for intro and bio
@@ -21,3 +23,9 @@ Live app: https://thinkful-ei-bee.github.io/quiz-app-james-david/
 Source: https://thinkful-ei-bee.github.io/quiz-app-james-david/
 
 */
+
+function main() {
+  
+}
+
+$(main);
