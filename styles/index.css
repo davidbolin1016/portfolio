@@ -83,5 +83,12 @@ p {
 }
 
 .tech-stack {
-  padding: 20px;
+  height: 85px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 45px;
+}
+
+.tech-stack-list {
+  text-align: left;
 }
