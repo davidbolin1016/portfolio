@@ -27,11 +27,17 @@ nav img {
 
 a:link, a:visited {
   color: black;
+  text-decoration: none;
 }
 
 .text-link {
   bottom: 8px;
+  color: black;
   position: relative;
+}
+
+.text-link:hover, .text-link:focus {
+  text-decoration: underline;
 }
 
 ul {
