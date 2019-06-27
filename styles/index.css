@@ -71,6 +71,10 @@ p {
   margin-right: 25px;
 }
 
+hr {
+  margin-bottom: 100px;
+}
+
 #projects {
   margin-top: 200px;
 }
